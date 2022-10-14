@@ -1158,7 +1158,9 @@ fieldset {
   border: 2px solid  #337ab7;
   transition: all 900ms ease;
 }
-
+.rev-slidebg{
+  position: relative;
+}
 
 /** about section **/
 
@@ -1191,7 +1193,12 @@ fieldset {
   position: relative;
   overflow: hidden;
   margin-left: 8px;
-  margin-top: -56px;
+  top: 10pc;
+}
+@media only screen and (max-width: 767px){
+  .video-gallery{
+    top: 0;
+  }
 }
 .video-gallery img {
   transform: scale(1);
@@ -1345,6 +1352,20 @@ fieldset {
 }
 .service-section .single-item .lower-content h3{
   margin-bottom: 15px;
+}
+.button-alumni{
+  margin-top: 30px;
+
+}
+.button-alumni a{
+  color: #fff;
+  background-color: #337ab7;
+}
+.button-alumni a:hover{
+  color: #337ab7;
+  background-color: #FFF;
+  transition: all 500ms ease;
+  
 }
 
 
