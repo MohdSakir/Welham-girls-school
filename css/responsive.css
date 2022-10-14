@@ -451,6 +451,9 @@
 }
 
 @media only screen and (max-width: 399px) {
+	.about-section{
+		margin-top: 10px;
+	}
 	
 	.main-slider .tp-btn a{
 		display: block;
