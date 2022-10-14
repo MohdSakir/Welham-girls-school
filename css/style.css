@@ -1290,6 +1290,8 @@ fieldset {
 /** cta-section **/
 
 .cta-section{
+  padding-top: 2pc;
+  padding-bottom: 2pc;
   position: relative;
  /* background: url(../images/home/cta-bg.jpg);*/
   width: 100%;

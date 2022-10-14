@@ -435,6 +435,9 @@
 }
 
 @media only screen and (max-width: 499px){
+	.admission-more{
+		padding-top: 1pc;
+	}
 
 	.testimonial-section .ms-info .text{
 		line-height: 30px;
