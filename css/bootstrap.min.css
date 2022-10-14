@@ -7747,9 +7747,9 @@ button.close {
 .carousel-inner>.item>img {
     line-height: 1
 }
-.item{
+/* .item{
     min-height: 25pc;
-}
+} */
 
 @media all and (transform-3d),
 (-webkit-transform-3d) {
