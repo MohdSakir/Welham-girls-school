@@ -834,6 +834,7 @@ fieldset {
 }
 
 .header-upper{
+  display: none;
   position: relative;
   background: #232428;
   width: 100%;
@@ -1017,10 +1018,10 @@ fieldset {
 
 .whatsapp{
  
-  top: -4pc;
+  top: 3pc;
   float: left;
   width: 30%;
-  position: relative;
+  position: fixed;
 }
 .whatsapp ul li{
   display: inline;
@@ -1037,7 +1038,7 @@ fieldset {
 }
 @media only screen and (max-width: 767px){
   .whatsapp{
-    top: -2.5pc;
+    top: 17px;
     
   }
 }
