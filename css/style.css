@@ -215,7 +215,7 @@ h2{
 }
 
 h3{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -235,7 +235,7 @@ h6{
 } 
 
 h3 a{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -394,7 +394,7 @@ h6 a:hover{
   width: 30%;
   /* top: 50%; */
   left: 36%;
-  transform: translate(90%, -106%);
+  transform: translate(90%, -110%);
   /* background: rgba(255, 255, 255, 0.205); */
 }
 @media only screen and (max-width: 767px)
@@ -839,6 +839,11 @@ fieldset {
   width: 100%;
   padding: 9px 0px;
 }
+@media only screen and (max-width: 767px){
+  .header-upper{
+    display: none;
+  }
+}
 .header-upper .top-left{
   position: relative;
   display: inline-block;
@@ -894,6 +899,7 @@ fieldset {
   margin: 0px 0px 0px 26px;
 }
 .logo-box{
+  display: none;
   background: url(../images/logo/logo1.png) no-repeat 9% 100%;
   height: 62px;
   margin-top: 27px;
@@ -1009,6 +1015,32 @@ fieldset {
   margin-left: 36px;
 }
 
+.whatsapp{
+ 
+  top: -4pc;
+  float: left;
+  width: 30%;
+  position: relative;
+}
+.whatsapp ul li{
+  display: inline;
+  padding-left: 20px;
+}
+
+.fa-whatsapp::before{
+  font-size: 30px;
+  color: #337ab7;
+}
+.fa-phone::before{
+  font-size: 30px;
+  color: #337ab7;
+}
+@media only screen and (max-width: 767px){
+  .whatsapp{
+    top: -2.5pc;
+    
+  }
+}
 
 .main-menu .navigation > li > a > i:before{
   margin-right: 5px;
@@ -1160,6 +1192,18 @@ fieldset {
 }
 .rev-slidebg{
   position: relative;
+}
+.img-responsive.mobile {
+  display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .img-responsive {
+    display: none;
+  }
+  .img-responsive.mobile {
+    display: block;
+  }
 }
 
 /** about section **/
@@ -1491,13 +1535,15 @@ fieldset {
   opacity: 1;
   transition: all 500ms ease;
 }
-
+.mobile{
+  display: none;
+}
 
 /** testiomnial section **/
 
 .testimonial-section{
   position: relative;
-  background: url(../images/testimonial/bg.jpeg);
+  background: url(../images/testimonial/wallpaper.jpg);
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -1596,8 +1642,38 @@ fieldset {
 .newsletter-section{
   position: relative;
   padding: 48px 0px 50px 0px;
-  background:  #337ab7;
+  background:  #fff;
   width: 100%;
+}
+.faq-heading{
+  background: #337ab7;
+  height: 3pc;
+}
+.faq-heading h3{
+  color: #FFF;
+  padding-top: 10px;
+  position: relative;
+  margin-left: 30px !important;
+  font-weight: bold;
+}
+.faq-button{
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  position: relative;
+}
+.faq-button a{
+  font-weight: bold;
+  background: #337ab7;
+  color: #FFF;
+  border: 1px solid #337ab7;
+  padding: 12px 25px 12px 24px;
+  text-transform: uppercase;
+}
+.faq-button a:hover{
+  color: #337ab7;
+  background: #FFF;
+  transition: 900ms ease;
 }
 .newsletter-section .text{
   font-size: 40px;
@@ -1645,8 +1721,9 @@ fieldset {
 
 
 .main-footer{
+  background: #337ab7;
   position: relative;
-  background: url(../images/footer/bg.jpeg);
+  /* background: url(../images/footer/bg.jpeg); */
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -1691,7 +1768,7 @@ fieldset {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid #939991;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   transition: all 500ms ease;
 }
@@ -1754,7 +1831,7 @@ fieldset {
   position: relative;
   display: inline-block;
   padding: 4px 14px 3px 13px;
-  border: 1px solid #737b72;
+  border: 1px solid #ffffff;
   color: #c0c6ca;
   font-size: 13px;
   margin-bottom: 10px;
@@ -2740,4 +2817,17 @@ textarea{
 #contact-google-map {
   height: 420px;
   width: 100%;
+}
+
+
+.image{
+  display: none;
+}
+@media only screen and (max-width: 767px){
+  .rev-slidebg{
+    display: none;
+  }
+  .image{
+    display: block;
+  }
 }

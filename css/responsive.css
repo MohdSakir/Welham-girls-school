@@ -325,7 +325,7 @@
 		display:none !important;	
 	}
 	.main-header .menu-bar{
-		float: none;
+		float: right;
 	}
 	.main-menu{
 		right: 0px;
