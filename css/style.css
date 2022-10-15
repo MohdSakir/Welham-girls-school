@@ -349,7 +349,7 @@ h6 a:hover{
 .section-title h2{
   position: relative;
   font-weight: 500;
-  margin-bottom: 60px;
+  /* margin-bottom: 10px; */
 }
 .section-title h2:before{
   position: absolute;
