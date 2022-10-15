@@ -398,6 +398,7 @@ h6 a:hover{
   /* top: 50%; */
   left: 36%;
   transform: translate(90%, -110%);
+  transition: all 900ms ease;
   /* background: rgba(255, 255, 255, 0.205); */
 }
 @media only screen and (max-width: 767px)
