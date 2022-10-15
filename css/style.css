@@ -166,7 +166,7 @@ ul,li{
   text-align:center;  
 }
 .sec-pad{
-  padding: 96px 0px 100px 0px;
+  padding: 40px 0px 40px 0px;
 }
 
 p{
@@ -210,6 +210,7 @@ h1 span{
 }
 
 h2{
+  color: #FFF;
   font-size: 36px;
   line-height: 43px;
 }
@@ -357,8 +358,8 @@ h6 a:hover{
   width: 88px;
   height: 28px;
   left: 50%;
-  bottom: -39px;
-  margin-left: -25px;
+  bottom: 45px;
+  margin-left: -39px;
   background-repeat: no-repeat;
 }
 .section-title-testimonial h2{
@@ -1213,7 +1214,7 @@ fieldset {
 
 .about-section{
   position: relative;
-  padding: 114px 0px 81px 0px;
+  padding: 80px 0px 81px 0px;
 }
 .about-section .section-title h2:before{
   background: url(../images/home/title-shap.png);
@@ -1304,7 +1305,7 @@ fieldset {
 .cta-section:before{
   position: absolute;
   content: '';
-  background:  rgba(0, 0, 0, 0.1);;
+  background:  rgb(255, 254, 254);;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -1336,12 +1337,25 @@ fieldset {
   padding: 12px 34px 12px 34px;
 }
 
+.procedure-img{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.procedure-img img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+
+}
 
 /** service-section **/
 
 .service-section{
   position: relative;
-  padding-bottom: 122px;
+  padding-bottom: 40px;
 }
 .service-section .single-item{
   position: relative;
@@ -1397,9 +1411,10 @@ fieldset {
   transition: all 500ms ease;
 }
 .service-section .section-title h2{
-  margin-bottom: 68px;
+  margin-bottom: -20;
 }
 .service-section .single-item .lower-content h3{
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .button-alumni{
@@ -1427,7 +1442,7 @@ fieldset {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 50px 0px 70px 0px;
+  padding: 50px 0px 50px 0px;
 }
 .fact-counter:before{
   position: absolute;
@@ -1566,6 +1581,7 @@ fieldset {
   opacity: 0.2;
 }
 .testimonial-section .item{
+  padding: 0 10px;
   color: white;
 }
 
